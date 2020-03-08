@@ -1,0 +1,25 @@
+/* Changing style of a tag */
+body {
+  font-size: 40px;
+  color: blue;
+}
+/* Changing style of a class */
+.class {
+  background-color: green;
+  margin: 20px;
+  padding: 20px;
+}
+.grid {
+  display: grid;
+  background-color: pink;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 300px;
+  width: 100%;
+}
+.item {
+  background-color: purple;
+  grid-column: 1;
+  /* [x,y) inclusive exclusive */
+  grid-row: 1 / 3;
+}
